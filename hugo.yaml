@@ -1,0 +1,97 @@
+baseURL: https://navehaus.com/
+languageCode: en-us
+title: NaveHaus Consulting, LLC
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.144.0"
+
+  imports:
+    - path: github.com/imfing/hextra
+
+enableRobotsTXT: true
+enableGitInfo: true
+
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+
+defaultContentLanguage: en
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)']]
+        enable: true
+
+enableInlineShortcodes: true
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      pageRef: /
+      weight: 1
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/NaveHaus"
+      params:
+        icon: github
+    - name: Search
+      weight: 6
+      params:
+        type: search
+
+params:
+  description: Custom software engineering and consulting for DIB small businesses.
+
+  theme:
+    default: light
+    displayToggle: false
+
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/logo.png
+      # width: 40
+      height: 40
+      link: /
+    width: full
+
+  page:
+    width: full
+
+  footer:
+    enable: true
+    displayCopyright: false
+    displayPoweredBy: false
+    width: full
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      index: content
+      tokenize: forward
+
+  highlight:
+    copy:
+      enable: true
+      display: hover
+
+  comments:
+    enable: false
