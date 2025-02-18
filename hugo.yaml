@@ -41,15 +41,15 @@ menu:
       name: Home
       pageRef: /
       weight: 1
+    - name: Search
+      params:
+        type: search
+      weight: 2
     - name: GitHub
-      weight: 5
       url: "https://github.com/NaveHaus"
       params:
         icon: github
-    - name: Search
-      weight: 6
-      params:
-        type: search
+      weight: 3
 
 params:
   description: Custom software engineering and consulting for DIB small businesses.
@@ -59,11 +59,11 @@ params:
     displayToggle: false
 
   navbar:
-    displayTitle: true
+    displayTitle: false
     displayLogo: true
     logo:
-      path: images/logo.png
-      # width: 40
+      path: images/logo.svg
+      width: 40
       height: 40
       link: /
     width: full
@@ -73,8 +73,8 @@ params:
 
   footer:
     enable: true
-    displayCopyright: false
-    displayPoweredBy: false
+    displayCopyright: true
+    displayPoweredBy: true
     width: full
 
   displayUpdatedDate: true
