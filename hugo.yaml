@@ -1,6 +1,6 @@
 baseURL: https://navehaus.com/
 languageCode: en-us
-title: NaveHaus Consulting, LLC
+title: NaveHaus Consulting LLC
 
 module:
   hugoVersion:
@@ -59,26 +59,24 @@ params:
     displayToggle: false
 
   navbar:
-    displayTitle: false
+    displayTitle: true
     displayLogo: true
     logo:
       path: images/logo.svg
-      width: 40
-      height: 40
       link: /
     width: full
 
   page:
-    width: full
+    width: normal
 
   footer:
     enable: true
     displayCopyright: true
-    displayPoweredBy: true
+    displayPoweredBy: false
     width: full
 
   displayUpdatedDate: true
-  dateFormat: "January 2, 2006"
+  dateFormat: 'January 2, 2006'
 
   search:
     enable: true
