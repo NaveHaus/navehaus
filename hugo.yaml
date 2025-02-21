@@ -14,7 +14,7 @@ defaultContentLanguage: "en"
 module:
   hugoVersion:
     extended: true
-    min: "0.144.0"
+    min: "0.124.1"
 
   imports:
     - path: "github.com/imfing/hextra"
