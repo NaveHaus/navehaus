@@ -21,7 +21,7 @@ jobs:
       name: production
       # url: https://navehaus.com
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           submodules: false
           # For Hugo Git Info:
