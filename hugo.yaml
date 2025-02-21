@@ -1,15 +1,15 @@
-baseURL: https://navehaus.com/
-languageCode: en-us
-title: NaveHaus Consulting LLC
+baseURL: "https://navehaus.com/"
+languageCode: "en-us"
+title: "NaveHaus Consulting LLC"
 
 enableRobotsTXT: true
 enableGitInfo: true
+enableInlineShortcodes: true
 
 cleanDestinationDir: true
 disableFastRerender: true
 disableLiveReload: true
-noChmod: true
-
+defaultContentLanguage: "en"
 
 module:
   hugoVersion:
@@ -17,14 +17,12 @@ module:
     min: "0.144.0"
 
   imports:
-    - path: github.com/imfing/hextra
+    - path: "github.com/imfing/hextra"
 
 outputs:
-  home: [HTML]
-  page: [HTML]
-  section: [HTML, RSS]
-
-defaultContentLanguage: en
+  home: ['HTML']
+  page: ['HTML']
+  section: ['HTML', 'RSS']
 
 markup:
   highlight:
@@ -32,6 +30,9 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    parser:
+      attribute:
+        block: true
     extensions:
       passthrough:
         delimiters:
@@ -39,63 +40,61 @@ markup:
           inline: [['\(', '\)']]
         enable: true
 
-enableInlineShortcodes: true
-
 menu:
   main:
-    - identifier: home
-      name: Home
-      pageRef: /
+    - identifier: "home"
+      name: "Home"
+      pageRef: "/"
       weight: 1
-    - name: Search
+    - name: "Search"
       params:
-        type: search
+        type: "search"
       weight: 2
-    - name: GitHub
+    - name: "GitHub"
       url: "https://github.com/NaveHaus"
       params:
-        icon: github
+        icon: "github"
       weight: 3
 
 params:
-  description: Custom software engineering and consulting for DIB small businesses.
+  description: "Software engineering and consulting for small defense engineering, manufacturing, and technology organizations."
 
   theme:
-    default: light
+    default: "light"
     displayToggle: false
 
   navbar:
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/logo.svg
-      link: /
-    width: full
+      path: "images/logo.svg"
+      link: "/"
+    width: "full"
 
   page:
-    width: normal
+    width: "normal"
 
   footer:
     enable: true
     displayCopyright: true
     displayPoweredBy: false
-    width: full
+    width: "full"
 
   displayUpdatedDate: true
-  dateFormat: 'January 2, 2006'
+  dateFormat: "January 2, 2006"
 
   search:
     enable: true
-    type: flexsearch
+    type: "flexsearch"
 
     flexsearch:
-      index: content
-      tokenize: forward
+      index: "content"
+      tokenize: "forward"
 
   highlight:
     copy:
       enable: true
-      display: hover
+      display: "hover"
 
   comments:
     enable: false

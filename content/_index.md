@@ -8,7 +8,7 @@ layout: hextra-home
 <div class="hx-mt-4"></div>
 
 <p class="max-sm:hx-hidden not-prose hx-text-xl hx-text-gray-600 sm:hx-text-xl hx-mx-auto hx-text-center" style="width:70%">
-Dedicated software engineering and consulting services for small defense contractors.
+Software engineering and consulting for small defense engineering, manufacturing, and technology organizations.
 </p>
 
 <div class="hx-mt-16"></div>
@@ -37,30 +37,41 @@ Current Services
 <div class="hx-mt-16"></div>
 
 {{< hextra/hero-headline >}}
-Current Capabilities
+Current Capabilities and Expertise
 {{< /hextra/hero-headline >}}
 
-<div class="hx-mt-8"></div>
+<div class="hx-mt-4"></div>
 
 {{< hextra/hero-section >}}
-Foundations
+Software Development Foundations
 {{< /hextra/hero-section >}}
 
-<div class="hx-mt-8"></div>
+<div class="hx-mt-2"></div>
 
 {{< hextra/feature-grid >}}
-{{< hextra/feature-card link="https://qt.io" title="Qt Framework" >}}
-{{< hextra/feature-card link="https://boost.org" title="Boost C++ Libraries" >}}
-{{< hextra/feature-card link="https://visualstudio.microsoft.com/vs" title="Visual Studio" >}}
-{{< hextra/feature-card link="https://code.visualstudio.com" title="Visual Studio Code" >}}
+{{< hextra/feature-card title="Qt Framework" link="https://qt.io" >}}
+{{< hextra/feature-card title="VTK" link="https://vtk.org" >}}
+{{< hextra/feature-card title="OpenCV" link="https://opencv.org" >}}
+{{< hextra/feature-card title="Boost C++ Libraries" link="https://boost.org" >}}
+{{< hextra/feature-card title="Blazor" link="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor" >}}
+{{< hextra/feature-card title="OpenGL" link="https://www.khronos.org/opengl/" >}}
+{{< hextra/feature-card title="PowerShell" link="https://learn.microsoft.com/en-us/powershell/scripting/overview" >}}
+{{< hextra/feature-card title="Windows PowerShell" link="https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-5.1" >}}
 {{< /hextra/feature-grid >}}
 
+<div class="hx-mt-4"></div>
+
 {{< hextra/hero-section >}}
-Complementary Technologies
+Supporting Technologies
 {{< /hextra/hero-section >}}
 
-<div class="hx-mt-8"></div>
+<div class="hx-mt-2"></div>
 
 {{< hextra/feature-grid >}}
-{{< hextra/feature-card link="https://cmake.org" title="CMake" >}}
+{{< hextra/feature-card title="Microsoft Windows" link="https://learn.microsoft.com/en-us/windows/" >}}
+{{< hextra/feature-card title="Ubuntu Linux" link="https://ubuntu.com" >}}
+{{< hextra/feature-card title="GitLab" link="https://gitlab.com" >}}
+{{< hextra/feature-card title="Visual Studio" link="https://visualstudio.microsoft.com" >}}
+{{< hextra/feature-card title="Visual Studio Code" link="https://code.visualstudio.com" >}}
+{{< hextra/feature-card title="Microsoft Hyper-V" link="https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-overview?pivots=windows" >}}
 {{< /hextra/feature-grid >}}
