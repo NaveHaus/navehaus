@@ -50,8 +50,11 @@ Software Development Foundations
 
 {{< hextra/feature-grid >}}
 {{< hextra/feature-card title="Qt Framework" link="https://qt.io" >}}
-{{< hextra/feature-card title="VTK" link="https://vtk.org" >}}
+{{< hextra/feature-card title="Visualization Toolkit (VTK)" link="https://vtk.org" >}}
+{{< hextra/feature-card title="Insight Toolkit (ITK)" link="https://itk.org" >}}
 {{< hextra/feature-card title="OpenCV" link="https://opencv.org" >}}
+{{< hextra/feature-card title="Open CASCADE" link="https://dev.opencascade.org" >}}
+{{< hextra/feature-card title="openNURBS" link="https://www.rhino3d.com/features/developer/opennurbs" >}}
 {{< hextra/feature-card title="Boost C++ Libraries" link="https://boost.org" >}}
 {{< hextra/feature-card title="Blazor" link="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor" >}}
 {{< hextra/feature-card title="OpenGL" link="https://www.khronos.org/opengl/" >}}
