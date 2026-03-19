@@ -1,7 +1,7 @@
 # Push navehaus.com to its corresponding Azure Static Web App resource.
 # Requires:
 # - Azure static-web-apps-deploy action: https://github.com/Azure/static-web-apps-deploy
-name: Azure Static Web Apps CI/CD
+name: Deploy to Azure
 
 on:
   push:
@@ -16,7 +16,9 @@ jobs:
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
-    name: Build and Deploy Job
+    name: Build and Deploy to Azure
+    permissions:
+      contents: read
     environment:
       name: production
       url: https://navehaus.com
