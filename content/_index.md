@@ -3,7 +3,7 @@ title: NaveHaus Consulting, LLC
 layout: hextra-home
 ---
 
-<img src="images/logo-banner-890x100.webp" class="hx-w-full">
+<img src="images/logo-banner-920x100.webp" class="hx-w-full">
 
 <div class="hx-mt-4"></div>
 
