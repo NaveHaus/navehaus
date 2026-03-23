@@ -55,6 +55,11 @@ menu:
       params:
         icon: "github"
       weight: 3
+    - name: "Linked-In"
+      url: "https://linkedin.com/in/demianmnave"
+      params:
+        icon: "linkedin"
+      weight: 4
 
 params:
   description: "Software engineering and consulting for small defense engineering, manufacturing, and technology organizations."
